@@ -1,4 +1,4 @@
-name: finding-peaks
+name: peak-finder
 dependencies:
   - jupyterlab
   - pandas
