@@ -1,0 +1,7 @@
+name: finding-peaks
+dependencies:
+  - jupyterlab
+  - pandas
+  - scipy
+  - matplotlib
+  - ipympl
