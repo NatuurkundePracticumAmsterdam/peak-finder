@@ -14,7 +14,13 @@ Of course, you can also use this notebook in other environments as long as you h
 
 ## Usage
 
-At the bottom of the notebook you will find this line:
+Run Jupyter Lab with
+
+```shell
+$ jupyter lab
+```
+
+and load the notebook. At the bottom of the notebook you will find this line:
 
 ```python
 find_peaks("mydatafile.csv")
@@ -24,4 +30,4 @@ Change `mydatafile.csv` to point at your data file and run the notebook. You sho
 
 ![Screenshot of the peak finder widget](images/screenshot-peak-finder.png)
 
-You can zoom into parts of your dataset and tweak the settings until your satisfied with the detected peaks.
+You can zoom into parts of your dataset and tweak the settings until you're satisfied with the detected peaks.
