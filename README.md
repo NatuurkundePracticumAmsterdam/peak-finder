@@ -17,6 +17,7 @@ Of course, you can also use this notebook in other environments as long as you h
 Run Jupyter Lab with
 
 ```shell
+$ conda activate peak-finder
 $ jupyter lab
 ```
 
