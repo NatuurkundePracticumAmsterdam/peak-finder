@@ -1041,9 +1041,9 @@ wheels = [
 ]
 
 [[package]]
-name = "peak-finder"
+name = "peak-finder-notebook"
 version = "1.0.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "ipympl" },
     { name = "jupyterlab" },
