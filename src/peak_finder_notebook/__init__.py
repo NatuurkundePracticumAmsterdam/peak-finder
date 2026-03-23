@@ -1,6 +1,8 @@
+import os
 import pathlib
-import subprocess
 from importlib.resources import files
+
+NOTEBOOK = "peak-finder.ipynb"
 
 
 def copy_from_package_if_missing(resource: str) -> None:
@@ -11,6 +13,6 @@ def copy_from_package_if_missing(resource: str) -> None:
 
 
 def main():
-    copy_from_package_if_missing("peak-finder.ipynb")
+    copy_from_package_if_missing(NOTEBOOK)
     copy_from_package_if_missing("example-datafile.csv")
-    subprocess.run(["jupyter", "lab", "peak-finder.ipynb"], check=True)
+    os.execvp("jupyter", ["jupyter", "lab", NOTEBOOK])
