@@ -2,7 +2,24 @@
 
 You can use this notebook to find peaks in your data.
 
+## Just run the code
+
+If you just want to run the code without downloading or installing anything, make sure you've got [https://docs.astral.sh/uv](uv installed) and run:
+```shell
+uvx peak-finder-notebook
+```
+
 ## Getting everything set up
+
+If you want to clone the repository or have downloaded the notebook, you have several options of running the code.
+
+### uvx
+
+If you've downloaded a copy of the notebook and want to run Jupyter Lab with the required dependencies but without installing anything run
+
+```shell
+uvx --from jupyterlab --with ipympl,matplotlib,numpy,pandas,scipy jupyter-lab peak-finder.ipynb
+```
 
 ### uv
 
@@ -14,19 +31,12 @@ uv sync
 
 To set up your virtual environment. You can also add the dependencies listed in `pyproject.toml` to an existing project's environment.
 
-Run the notebook from Visual Studio Code by selecting the peak-finder .venv as the environment for the kernel or run Jupyter Lab with
+Run the notebook from Visual Studio Code by selecting the peak-finder .venv as the environment for the kernel, or run Jupyter Lab with
 
 ```shell
-uv run jupyter-lab peak-finder.ipynb
+uv run jupyter-lab src/peak_finder_notebook/peak-finder.ipynb
 ```
 
-### uvx
-
-If you just have a copy of the notebook and want to run Jupyter Lab with the required dependencies but without installing anything run
-
-```shell
-uvx --from jupyterlab --with ipympl,matplotlib,numpy,pandas,scipy jupyter-lab peak-finder.ipynb
-```
 
 ### Conda (Anaconda or Miniconda)
 
