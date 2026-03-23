@@ -4,7 +4,7 @@ You can use this notebook to find peaks in your data.
 
 ## Just run the code
 
-If you just want to run the code without downloading or installing anything, make sure you've got [uv installed](https://docs.astral.sh/uv) and run:
+If you just want to run the code without downloading or installing anything, make sure you've got [uv installed](https://docs.astral.sh/uv/getting-started/installation/) and run:
 ```shell
 uvx peak-finder-notebook
 ```
